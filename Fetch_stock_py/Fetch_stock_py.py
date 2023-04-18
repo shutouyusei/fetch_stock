@@ -17,5 +17,6 @@ df.insert(0, "code", ticker_symbol, allow_duplicates=False)
 
 df.to_csv( os.path.dirname(__file__) + '\s_stock_data_'+ ticker_symbol + '.csv', encoding="shift-jis")
 
+
 print(df)
 print("success")
